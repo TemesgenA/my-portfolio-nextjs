@@ -6,7 +6,19 @@ const SkillsContainer = styled.div`
 
 export default function Skills() {
     // Replace this with your actual skills data
-    const skills = ['Skill 1', 'Skill 2', 'Skill 3'];
+    const skills = [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'React',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'SQL',
+        'TypeScript',
+        'Kotlin',
+        'Android Development',
+    ];
 
     return (
         <SkillsContainer>
