@@ -18,7 +18,30 @@ export default function Projects() {
             technologies: ['Tech 1', 'Tech 2'],
             link: 'https://example.com/project-1',
         },
-        // Add more projects here
+        {
+            title: 'Project 2',
+            description: 'Description for Project 2',
+            technologies: ['Tech 1', 'Tech 2'],
+            link: 'https://example.com/project-2',
+        },
+        {
+            title: 'Project 3',
+            description: 'Description for Project 3',
+            technologies: ['Tech 1', 'Tech 2'],
+            link: 'https://example.com/project-3',
+        },
+        {
+            title: 'Project 4',
+            description: 'Description for Project 4',
+            technologies: ['Tech 1', 'Tech 2'],
+            link: 'https://example.com/project-4',
+        },
+        {
+            title: 'Project 5',
+            description: 'Description for Project 5',
+            technologies: ['Tech 1', 'Tech 2'],
+            link: 'https://example.com/project-5',
+        },
     ];
 
     return (
