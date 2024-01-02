@@ -1,5 +1,6 @@
+'use client'
+
 import styled from 'styled-components';
-import Link from 'next/link';
 
 const AboutContainer = styled.div`
   // Add your styles here
