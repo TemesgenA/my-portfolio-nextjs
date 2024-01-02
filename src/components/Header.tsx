@@ -8,8 +8,9 @@ const HeaderContainer = styled.div`
 export default function Header() {
     return (
         <HeaderContainer>
-            <h1>Your Name</h1>
+            <h1>Temesgen A. Shonge</h1>
             <nav>
+                <Link href="/">Home</Link>
                 <Link href="#about">About Me</Link>
                 <Link href="#projects">Projects</Link>
                 <Link href="#skills">Skills</Link>
