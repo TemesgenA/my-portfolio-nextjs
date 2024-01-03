@@ -25,17 +25,27 @@ const Nav = styled.nav`
   align-items: center;
 `;
 
-export default function Header() {
+const Logo = styled.h1`
+  margin-right: 20px; /* Default margin value */
+  
+  @media (min-width: 768px) {
+    margin-right: 40px; /* Increase the margin value for screens larger than 768px */
+  }
+`;
+
+const Header = () => {
   return (
-    <HeaderContainer>
-      <h1>Temesgen A. Shonge</h1>
+    <HeaderContainer className="bg-gray-800 text-white p-4 flex justify-center shadow-md">
+      <Logo>Temesgen A. Shonge</Logo>
       <Nav>
-        <Link href="/" passHref><StyledLink>Home</StyledLink></Link>
-        <Link href="#about" passHref><StyledLink>About Me</StyledLink></Link>
-        <Link href="#projects" passHref><StyledLink>Projects</StyledLink></Link>
-        <Link href="#skills" passHref><StyledLink>Skills</StyledLink></Link>
-        <Link href="#contact" passHref><StyledLink>Contact</StyledLink></Link>
+        <Link href="/" passHref><StyledLink className="mr-4 transition-colors duration-300 hover:text-blue-300">Home</StyledLink></Link>
+        <Link href="#about" passHref><StyledLink className="mr-4 transition-colors duration-300 hover:text-blue-300">About Me</StyledLink></Link>
+        <Link href="#projects" passHref><StyledLink className="mr-4 transition-colors duration-300 hover:text-blue-300">Projects</StyledLink></Link>
+        <Link href="#skills" passHref><StyledLink className="mr-4 transition-colors duration-300 hover:text-blue-300">Skills</StyledLink></Link>
+        <Link href="#contact" passHref><StyledLink className="transition-colors duration-300 hover:text-blue-300">Contact</StyledLink></Link>
       </Nav>
     </HeaderContainer>
   );
-}
+};
+
+export default Header;
